@@ -86,12 +86,11 @@ const main = async () => {
 		token,
 	});
 
-	console.log(approvalAmount);
-
 	const hash = await smartAccountClient.sendUserOperation({
 		userOperation: {
 			callData: await safe.encodeCallData([
 				{
+					// Approving the paymaster during the execution phase.
 					to: token,
 					value: 0n,
 					data: encodeFunctionData({
