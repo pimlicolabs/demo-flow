@@ -11,13 +11,13 @@ pnpm run start
 
 ## Layout
 
-- `src/index.ts` holds the demo flow
-- `src/erc20PaymasterActions.ts` holds a very barebone wrapper around the erc20 paymaster api. In production, the `erc20PaymasterActions` will be fully fleshed out and part of permissionless.js
-- `src/tokenMap.ts` holds supported tokens. In production, there will be more tokens
+- `src/index.ts` holds the demo flow.
+- `src/erc20PaymasterActions.ts` holds a very barebone wrapper around the erc20 paymaster api. In production, the `erc20PaymasterActions` will be fully fleshed out and part of permissionless.js.
+- `src/tokenMap.ts` holds supported tokens. Currently this is a lmit set, in production, there will be more tokens and chains supported.
 
 ## Paymaster
 
-At the time of writing, the permissioned erc20 paymaster is only deployed on polygon at address `0x2Ec2c2D9f5cEdE2b4c8bA9bb26212949a0016195`.
+At the time of writing, the permissioned erc20 paymaster is only deployed on polygon at address [`0x2Ec2c2D9f5cEdE2b4c8bA9bb26212949a0016195`](https://polygonscan.com/address/0x2Ec2c2D9f5cEdE2b4c8bA9bb26212949a0016195).
 
 ## Endpoint Schema
 
